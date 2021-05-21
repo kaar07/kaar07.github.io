@@ -1,7 +1,8 @@
----
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+Hello.!
+Welcome to the blog.  
+Here you go:
+    - [About me]()
+    - [Post 1]()
+    - [Post 2]()
+    - [Post 3]()
 
-layout: home
----
-Hello.
