@@ -1,3 +1,7 @@
+---
+layout: default
+title : Home
+---
 Hello.!
 Welcome to the blog.  
 Here you go:
