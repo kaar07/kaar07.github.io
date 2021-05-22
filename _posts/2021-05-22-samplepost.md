@@ -1,3 +1,7 @@
+---
+layout: post
+title: "SAMPLE-post"
+---
 # Post heading 
 
 Content looks like this.
