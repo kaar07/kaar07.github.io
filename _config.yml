@@ -21,7 +21,6 @@
 title: S-E-C-C-E-S
 email: kaarthik1415522@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-This site is extremely boring.
 baseurl: ""
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: imkaar07
