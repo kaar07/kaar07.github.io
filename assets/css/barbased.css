@@ -57,7 +57,7 @@ nav {
 
 @media screen and (max-width: 760px){
   html{
-    overflow-x: hidden;
+    position: fixed;
   }
   body{
     overflow-x:hidden;
