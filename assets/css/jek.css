@@ -8,9 +8,8 @@ html{
     font-size: 100%;
 }
 body{
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
     font-size: 1.125rem;
-    position: relative;
     color: {{ site.text-col | default: "#404040"}};
     background-color: {{ site.page-col | default: #FFFFFF}};
     {% if site.page-img %}
