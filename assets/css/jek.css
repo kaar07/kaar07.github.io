@@ -41,7 +41,8 @@ h4{
   font-size: 1.125rem;
 }
 a{
-  color: {{ site.link-col | default: "#008AFF"}};
+  color: #0081FF;
+  text-decoration: none;
 }
 a:hover,a:focus{
   color: {{site.hover-col | default: "#0085A1"}};

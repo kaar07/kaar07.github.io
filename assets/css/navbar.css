@@ -105,3 +105,12 @@ nav {
 .toggle .line3{
   transform: rotate(45deg) translate(-5px,-6px);
 }
+
+.footer-tree{
+  text-align: center;
+  padding: 3em;
+}
+.footer-tree a img{
+  height: 40px;
+  width: 40px;
+}
