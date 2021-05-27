@@ -153,3 +153,7 @@ nav {
 .centrify{
   text-align: center;
 }
+
+.centrify h1{
+  text-align: left;
+}
