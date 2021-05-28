@@ -44,6 +44,7 @@ nav {
 .burger {
   display: None;
 }
+
 .burger div{
   width: 25px;
   height: 3px;
@@ -52,12 +53,15 @@ nav {
   transition: all 0.2s ease;
 }
 
+@media screen and (max-width: 1024px){
+  .nav-links{
+    width: 70%;
+  }
+}
 
 @media screen and (max-width: 760px){
-  html{
-    position: fixed;
-  }
   body{
+    overflow-x: hidden;
   }
   .nav-links{
     position: absolute;

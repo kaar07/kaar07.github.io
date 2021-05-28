@@ -6,29 +6,24 @@ title: poorly written review
 
   >Why? Why? Why?  
   >Is it because Oscar Wilde was true about tragedy?  
-
   >Or is it because we are just a bunch of hypocrites?  
   >For we speak ideals and morality but keep tweaking'em.  
   >We have ambitions and goals, but we do something else.  
   >And under those selfless masks are selfish people,  
   >ironically bothered by others' opinions.  
-
   >Or is it because we just lack the courage?  
   >To try things, to fail and to be proved wrong.  
   >To change ourselves or to move on.  
   >To take the road not taken.
   >To be alone.Or to die.
-
   >Or is it because we just don't see?  
   >The obsoletion of religion and absurdness in dogma.  
   >The propensity for bias,  
   >in every idealogy that ever came out.  
   >The insignificance of our own self,  
   >in the grander scheme of time and space.  
-
   >Or is it because we are not honest enough?  
   >For we admire not the virtue, but its possession.  
-
   >Or is it because we really think that darkness is an entity?  
   >That ignorance is inferior, not the choice that resists to change.  
   >That good and bad are two different things.  
