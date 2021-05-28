@@ -9,8 +9,10 @@ common-js:
 <html>
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 maximum-scale=1">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+
     {% include bloghead.html %}
     <title>{{ page.title }}</title>
   </head>
@@ -19,15 +21,15 @@ common-js:
     <!-- nav bar starts here -->
     <nav>
        <div class="logo">
-        <h3>SUM ERGO COGITO - COGITO ERGO SUM</h3>
+        <h3>On my pursuit</h3>
       </div>
 
       <ul class="nav-links">
         <li>
-          <a href="/"> Home </a>
+          <a href="https://kaar07.github.io"> Home </a>
         </li>
         <li>
-          <a href="kaar07.github.io/2021/05/23/postindex.html"> Posts </a>
+          <a href="https://kaar07.github.io/allposts.html"> Posts </a>
         </li>
       </ul>
       <div class="burger">
@@ -38,8 +40,15 @@ common-js:
     </nav>
     <script src="/assets/js/barbased.js"></script>
     <!-- nav bar ends here -->
-    <div class="centrify">
-      {{ content }}
+    <div class="postpattern">
+      <div class="post-title">
+        - <strong>{{ page.title }}</strong>
+      </div>
+      <hr />
+      <div class="content">
+        {{ content }}
+      </div>
     </div>
+    {% include footer.html %}
   </body>
 </html>
