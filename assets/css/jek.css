@@ -1,21 +1,14 @@
-@media screen and (max-width: 600px){
-    .responsive-image{
-        width: 100%;
-    }
-}
-
 html{
     font-size: 100%;
 }
 body{
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 1.125rem;
-    color: {{ site.text-col | default: "#404040"}};
-    background-color: {{ site.page-col | default: #FFFFFF}};
-    {% if site.page-img %}
-    background-image: url({{site.page-img | relative_url}})
-    background-attachement: fixed;
-    {% endif %}
+    background-color: #fdffed;
+}
+.default-body{
+  margin-left: 5%;
+  margin-right: 2%;
 }
 
 p{
@@ -24,8 +17,8 @@ p{
 }
 
 h1,h2,h3,h4,h5{
-  font-family: 'Poppins', 'sans-serif';
-  font-weight: 800;
+  font-family: 'Patua One', 'sans-serif';
+  font-weight: 700;
   line-height: 1.1;
 }
 h1{
@@ -61,6 +54,12 @@ hr.small{
 img{
   max-height: 100%;
 }
+
+li{
+  padding: 0.5%;
+  margin-left: 2%;
+  margin-right: 2%;
+}
 table{
   padding: 0;
 }
@@ -70,7 +69,7 @@ table tr{
   margin: 0;
   padding: 0;
 }
-table tr:nth-child(2n){
+table tr: nth-child(2n){
   background-color: #f8f8f8;
 }
 table tr th{
@@ -97,4 +96,9 @@ code{
   color: #c7254e;
   background-color: #f9f2f4;
   border-radius: 0.25rem;
+}
+@media screen and (max-width: 600px){
+    .responsive-image{
+        width: 100%;
+    }
 }

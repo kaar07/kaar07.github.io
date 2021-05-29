@@ -11,7 +11,8 @@ common-js:
     <meta charset="utf-8">
     {% include bloghead.html %}
     <meta name="viewport" content="width=device-width, initial-scale=1.0 shrink-to-fit=no">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Patua+One&family=Poppins:wght@600&family=Source+Sans+Pro&display=swap" rel="stylesheet">
     <title>{{ page.title }}</title>
   </head>
 
@@ -22,12 +23,12 @@ common-js:
     <!-- navigation bar and related stuff  -->
     <nav>
       <div class="logo">
-        <h3>On my pursuit</h3>
+        On my pursuit
       </div>
       <ul class="nav-links">
         <li>
         <li>
-          <a href="https://kaar07.github.io"> Home </a>
+          <a href="https://kaar07.github.io"> Home  </a>
         </li>
         <li>
           <a href="https://kaar07.github.io/allposts.html"> Posts </a>
@@ -47,7 +48,9 @@ common-js:
     </nav>
     <script src="/assets/js/barbased.js"></script>
     <!-- navigation bar ends -->
-    {{ content }}
+    <div class="default-body">
+      {{ content }}
+    </div>
     <hr />
     {% include footer.html %}
     </div>

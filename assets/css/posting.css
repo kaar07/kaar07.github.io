@@ -1,15 +1,18 @@
-.postpattern{
-  font-family: 'Source Sans Pro', sans-serif;
-  margin-left: 20%;
-  margin-right: 20%;
-}
-
 .post-title{
-  font-family:'Poppins',sans-serif;
+  font-family:'Patua One',sans-serif;
   font-size: 2.5rem;
   text-transform: uppercase;
+  margin-left: 5%;
+  margin-right: 3%;
+  padding-top:2%;
+  padding-bottom: 2%;
 }
 
+.postpattern{
+  font-family: 'Source Sans Pro', sans-serif;
+  margin-left: 15%;
+  margin-right: 15%;
+}
 
 .postpattern ul,ol{
   margin-left: 5%;
@@ -31,60 +34,38 @@ table{
   margin-right: auto;
 }
 
-table tr{
-  border-top: 1px solid #cccccc;
-  background-color: #ffffff;
-  margin: 0;
-  padding: 0;
-}
-
-table tr: nth-child(2n){
-  background-color: #f8f8f8;
-  margin: 0;
-  padding: 0;
-}
-
-table tr th{
-  font-weight: bold;
-  border: 1px solid #cccccc;
-  text-align: left;
-  margin: 0;
-  padding: 0.375rem 0.8124rem;
-}
-
-table tr td {
-  border: 1px solid #cccccc;
-  text-align: left;
-  margin: 0;
-  padding: 0.375rem 0.8125rem;
-}
-
-table tr th :first-child, table tr td :first-child {
-  margin-top: 0;
-}
-
-table tr th :last-child, table tr td :last-child {
-  margin-bottom: 0;
-}
-
 code{
   margin-left: 15%;
   margin-right: 15%;
 }
 
-@media screen and (max-width: 760px){
+@media screen and (max-width: 400px){
+  body{
+    overflow-x: hidden;
+  }
   .postpattern{
-    margin-left: 1%;
-    margin-right: 1%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .postpattern ul{
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .postpattern ul li{
+    padding: 0;
+  }
+  .postpattern ul li a{
+    font-size: 1.5rem;
+    padding: 0;
+  }
+  .postpattern ol li a{
+    font-size: 1.5rem;
+    padding: 0;
   }
   .content{
     text-align: left;
   }
   .postpattern h3{
     text-align: left;
-  }
-  .postpattern p{
-    margin-left: 2.5%;
-    margin-right: 2.5%
   }
 }

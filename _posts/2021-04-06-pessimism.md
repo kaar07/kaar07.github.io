@@ -1,8 +1,7 @@
 ---
 layout: post
-title: poorly written review
+title: poorly written poem
 ---
-# Poorly written poem.
 
   >Why? Why? Why?  
   >Is it because Oscar Wilde was true about tragedy?  
