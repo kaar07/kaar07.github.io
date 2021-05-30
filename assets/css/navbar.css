@@ -82,9 +82,11 @@ nav {
     transition: transform 0.25s ease-in;
     opacity: 90%;
   }
+
   .nav-links li{
     opacity: 0;
   }
+
   .nav-links li a{
     font-size: 2rem;
   }
@@ -112,9 +114,11 @@ nav {
 .toggle .line1{
   transform: rotate(-45deg) translate(-5px,6px);
 }
+
 .toggle .line2{
   opacity: 0;
 }
+
 .toggle .line3{
   transform: rotate(45deg) translate(-5px,-6px);
 }
@@ -123,6 +127,7 @@ nav {
   text-align: center;
   padding: 3em;
 }
+
 .footer-tree a img{
   height: 40px;
   width: 40px;

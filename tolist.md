@@ -11,7 +11,7 @@ Flushing it out it here!
 
 ### Posts
 
-  - [Observations](https://kaar07.github.com/2021/05/26/observations.html)
-  - [Choice](https://kaar07.github.com/2021/05/25/choice.html)
+  - [Observations](https://kaar07.github.io/2021/05/26/observations.html)
+  - [Choice](https://kaar07.github.io/2021/05/25/choice.html)
   - [Impure Humans](https://kaar07.github.io/2021/05/25/humans.html)
   - [Tragedy in politics](https://kaar07.github.io/2021/05/25/tragedyof.html)
