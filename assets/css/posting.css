@@ -10,8 +10,13 @@
 
 .postpattern{
   font-family: 'Source Sans Pro', sans-serif;
-  margin-left: 15%;
-  margin-right: 15%;
+}
+
+@media screen and (min-width: 780px){
+  .postpattern{
+    margin-left: 15%;
+    margin-right: 15%;
+  }
 }
 
 .postpattern ul,ol{
@@ -39,13 +44,10 @@ code{
   margin-right: 15%;
 }
 
-@media screen and (max-width: 400px){
-  body{
-    overflow-x: hidden;
-  }
-  .postpattern{
-    margin-left: 0;
-    margin-right: 0;
+@media screen and (max-width: 780px){
+  .postpattern *{
+    margin-left: 1%;
+    margin-right: 1%;
   }
   .postpattern ul{
     margin-left: 0;
