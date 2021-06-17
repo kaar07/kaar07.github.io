@@ -1,6 +1,7 @@
 ---
 layout: post
 title: poorly written poem
+categories: [Content, Opinion]
 ---
 
   >Why? Why? Why?  

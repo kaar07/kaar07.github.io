@@ -4,7 +4,7 @@ html{
 body{
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 1.125rem;
-    background-color: white;
+    background-color:   #e6e6e6;
 }
 .default-body{
   margin-left: 2%;
@@ -120,5 +120,5 @@ code{
     .responsive-image{
         width: 100%;
     }
-    
+
 }

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Academic book recommendations
-tag: none
+categories: Review
 ---
 
 ## Math
