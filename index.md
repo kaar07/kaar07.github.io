@@ -12,5 +12,6 @@ title: Home
 </h3>
   - [Take Control - Center For Humane Technology](https://www.humanetech.com/take-control)
   - [Secret to designing positive future with AI? - Stuart Russell, WEForum](https://www.weforum.org/agenda/2020/10/the-secret-to-designing-a-positive-vision-for-ai-imagination/)
+  - [Lethal Autonomous weapons exist; They must be banned. - IEEE-spectrum](https://spectrum.ieee.org/automaton/robotics/military-robots/lethal-autonomous-weapons-exist-they-must-be-banned)
 
 <br />
